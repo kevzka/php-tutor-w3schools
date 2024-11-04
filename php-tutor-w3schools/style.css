@@ -1,0 +1,63 @@
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    font-family: sans-serif;
+    color: red;
+    text-align: center;
+}
+.login{
+    width: 300px; /* Lebar form */
+    margin: 0 auto; /* Tengah secara horizontal di halaman */
+    text-align: left; /* Teks dalam form rata kiri */
+}
+
+.login p {
+    margin: 0; /* Hilangkan margin di elemen <p> */
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%; /* Buat input selebar kotak form */
+    padding: 8px; /* Jarak di dalam kotak input */
+    margin-bottom: 10px; /* Jarak bawah antar input */
+    box-sizing: border-box; /* Agar padding tidak mempengaruhi lebar total */
+}
+
+.login {
+width: 300px; /* Lebar form */
+margin: 0 auto; /* Tengah secara horizontal di halaman */
+text-align: left; /* Teks dalam form rata kiri */
+padding: 20px; /* Jarak dalam kotak form */
+border: 2px solid #000; /* Border berwarna hitam */
+border-radius: 10px; /* Membuat sudut border sedikit melengkung */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan pada kotak */
+}
+
+.login p {
+margin: 0; /* Hilangkan margin di elemen <p> */
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+width: 100%; /* Buat input selebar kotak form */
+padding: 8px; /* Jarak di dalam kotak input */
+margin-bottom: 10px; /* Jarak bawah antar input */
+box-sizing: border-box; /* Agar padding tidak mempengaruhi lebar total */
+}
+
+.smktelkom{
+text-align: center;
+}
+
+.telkom{
+    display: block; /* Mengubah elemen menjadi block-level */
+    width: 100px; /* Atur lebar gambar */
+    margin: 0 auto; /* Agar gambar berada di tengah */
+}
